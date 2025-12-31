@@ -153,7 +153,7 @@ export default function Portfolio() {
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
             Shravya Shetty
           </h1>
           
@@ -271,16 +271,16 @@ export default function Portfolio() {
               </div>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div className={`${isDark ? 'bg-purple-900/20' : 'bg-purple-50'} p-4 rounded-lg`}>
-                  <div className="text-2xl md:text-3xl font-bold text-green-400">Easy</div>
-                  <div className={`text-xs md:text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
+                  <div className="text-lg font-bold text-green-400">Easy</div>
+                  <div className={`text-xs ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
                 </div>
                 <div className={`${isDark ? 'bg-purple-900/20' : 'bg-purple-50'} p-4 rounded-lg`}>
-                  <div className="text-2xl md:text-3xl font-bold text-yellow-400">Medium</div>
-                  <div className={`text-xs md:text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
+                  <div className="text-lg font-bold text-yellow-400">Medium</div>
+                  <div className={`text-xs ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
                 </div>
                 <div className={`${isDark ? 'bg-purple-900/20' : 'bg-purple-50'} p-4 rounded-lg`}>
-                  <div className="text-2xl md:text-3xl font-bold text-red-400">Hard</div>
-                  <div className={`text-xs md:text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
+                  <div className="text-lg font-bold text-red-400">Hard</div>
+                  <div className={`text-xs ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
                 </div>
               </div>
             </div>
