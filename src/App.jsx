@@ -157,8 +157,8 @@ export default function Portfolio() {
             Shravya Shetty
           </h1>
           
-          <h2 className={`text-2xl md:text-4xl ${isDark ? 'text-gray-300' : 'text-gray-700'} mb-6 transition-colors duration-500`}>
-            Software Engineer | MERN Stack Developer | Data Scientist
+          <h2 className={`text-xl md:text-3xl ${isDark ? 'text-gray-300' : 'text-gray-700'} mb-6 transition-colors duration-500`}>
+            Software Engineer | MERN Stack Developer
           </h2>
           
           <p className={`text-lg ${isDark ? 'text-gray-400' : 'text-gray-600'} mb-8 max-w-2xl mx-auto transition-colors duration-500`}>
@@ -271,16 +271,16 @@ export default function Portfolio() {
               </div>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div className={`${isDark ? 'bg-purple-900/20' : 'bg-purple-50'} p-4 rounded-lg`}>
-                  <div className="text-3xl font-bold text-green-400">Easy</div>
-                  <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
+                  <div className="text-2xl md:text-3xl font-bold text-green-400">Easy</div>
+                  <div className={`text-xs md:text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
                 </div>
                 <div className={`${isDark ? 'bg-purple-900/20' : 'bg-purple-50'} p-4 rounded-lg`}>
-                  <div className="text-3xl font-bold text-yellow-400">Medium</div>
-                  <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
+                  <div className="text-2xl md:text-3xl font-bold text-yellow-400">Medium</div>
+                  <div className={`text-xs md:text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
                 </div>
                 <div className={`${isDark ? 'bg-purple-900/20' : 'bg-purple-50'} p-4 rounded-lg`}>
-                  <div className="text-3xl font-bold text-red-400">Hard</div>
-                  <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
+                  <div className="text-2xl md:text-3xl font-bold text-red-400">Hard</div>
+                  <div className={`text-xs md:text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>Problems</div>
                 </div>
               </div>
             </div>
@@ -414,7 +414,7 @@ export default function Portfolio() {
           }
         }
         .animate-scroll-fast {
-          animation: scroll 15s linear infinite;
+          animation: scroll 5s linear infinite;
         }
         .animate-scroll-fast:hover {
           animation-play-state: paused;
